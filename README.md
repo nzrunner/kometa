@@ -27,21 +27,21 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![HA Version][ha-version-shield]][home-assistant]
+<!-- [![HA Version][ha-version-shield]][home-assistant] -->
 [![GitHub Sponsor Me][github-sponsor-me-shield]][github-sponsors-url]
 <a href="https://www.buymeacoffee.com/nzrunner" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="174"></a><br />
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Bugs][bugs-shield]][bugs-url]
-[![Feature Requests][features-shield]][features-url]
+<!--[![Bugs][bugs-shield]][bugs-url]
+[![Feature Requests][features-shield]][features-url]-->
 [![Pull Requests][pull-request-shield]][pull-request-url]
 [![MIT License][license-shield]][license-url]
 [![GitHub Sponsors][github-sponsors-shield]][github-sponsors-url]<br />
-[![Project Maintenance][maintenance-shield]](https://github.com/nzrunner/home-assistant/pulse)
+[![Project Maintenance][maintenance-shield]](https://github.com/nzrunner/plex-meta-manager/pulse)
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
-[![Home Assistant CI][homeassistantci-shield]][homeassistantci]
+<!--[![Home Assistant CI][homeassistantci-shield]][homeassistantci]-->
 
 ---
 
@@ -353,11 +353,11 @@ Don't forget to give the project a star! Thanks again!
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
-<!--
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 <!-- SPONSORSHIP -->
-<!--
+
 ## Sponsorship
 
 If you like what I've done, please consider sponsoring me. Like everyone, I have costs associated with maintaining this repository. Any little bit will help.
@@ -368,7 +368,7 @@ If you like what I've done, please consider sponsoring me. Like everyone, I have
 ### Our Sponsors
 
 <!-- readme: nzrunner,sponsors -start -->
-<!--
+
 <table>
 <tr>
     <td align="center">
@@ -379,19 +379,19 @@ If you like what I've done, please consider sponsoring me. Like everyone, I have
         </a>
     </td></tr>
 </table>
--->
+
 <!-- readme: nzrunner,sponsors -end -->
-<!--
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 <!-- LICENSE -->
-<!--
+
 ## License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 <!-- CONTACT -->
 <!--
 ## Contact
