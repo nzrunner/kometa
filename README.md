@@ -386,7 +386,7 @@ If you like what I've done, please consider sponsoring me. Like everyone, I have
 
 ## License
 
-Distributed under the MIT License. See [LICENSE.md](./LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
