@@ -353,11 +353,11 @@ Don't forget to give the project a star! Thanks again!
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
-
+<!--
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- SPONSORSHIP -->
-
+<!--
 ## Sponsorship
 
 If you like what I've done, please consider sponsoring me. Like everyone, I have costs associated with maintaining this repository. Any little bit will help.
@@ -368,6 +368,7 @@ If you like what I've done, please consider sponsoring me. Like everyone, I have
 ### Our Sponsors
 
 <!-- readme: nzrunner,sponsors -start -->
+<!--
 <table>
 <tr>
     <td align="center">
@@ -378,20 +379,21 @@ If you like what I've done, please consider sponsoring me. Like everyone, I have
         </a>
     </td></tr>
 </table>
+-->
 <!-- readme: nzrunner,sponsors -end -->
-
+<!--
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- LICENSE -->
-
+<!--
 ## License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- CONTACT -->
-
+<!--
 ## Contact
 
 | **Name**      | **Handle** | **Link**                                     |
@@ -400,7 +402,7 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 | Project Link  |            | <https://github.com/nzrunner/home-assistant> |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- Shields -->
