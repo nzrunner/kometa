@@ -75,7 +75,7 @@ As I continue to make improvements to my smart home, I will be updating my confi
 Hopefully, as I have learned from others and "borrowed" sectons of their code, others can benefit from my configuration.
 
 Sadly, I didn't keep a good record of the initial Home Assistant configurations that inspired me. If I stumble over them again, I will add them to the [Acknowledgements](#acknowledgments) section.
-
+<!--
 ## Blog 🆕
 
 I am now blogging about my GitHub and Home Assistant experiences. Why not check out my blog created using GitHub Pages and Jekyll: -
@@ -318,7 +318,7 @@ See the [open issues](https://github.com/nzrunner/home-assistant/issues) for a f
 | Amazing documentation - @CCOSTAN configuration | <https://github.com/CCOSTAN/Home-AssistantConfig>     |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- CONTRIBUTING -->
 
 ## Contributing
