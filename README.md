@@ -259,9 +259,9 @@ I will endeavour to update this occassionally.
 | Security Cameras               |     2      | N/A                                                                                                                  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- ROADMAP -->
-
+<!--
 ## Roadmap
 
 <details>
@@ -295,9 +295,9 @@ I will endeavour to update this occassionally.
 See the [open issues](https://github.com/nzrunner/home-assistant/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- ACKNOWLEDGMENTS -->
-
+<!--
 ## Acknowledgments
 
 ### Themes
