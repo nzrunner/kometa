@@ -13,7 +13,7 @@
 ---
 
 <!-- PROJECT LOGO -->
-
+## *** Needs major updates **
 [![Logo](/images/mark-matheson-digital-business-consultant.png)](../../)
 
 # Matho's Plex Meta Manager Configuration
