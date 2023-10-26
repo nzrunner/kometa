@@ -72,39 +72,23 @@ As I continue to make improvements to my configuration, I will be updating my co
 Hopefully, as I have learned from others and "borrowed" sectons of their code, others can benefit from my configuration.
 
 <!-- ROADMAP -->
-<!--
+
 ## Roadmap
 
-<details>
+<!--<details>
 
-<summary>Roadmap completed</summary>
+<summary>Roadmap completed</summary>-->
 
-- [x] Review project files for items that should be in the secrets.yaml file
-- [x] Disable Bluetooth Tracker
-- [x] Update the README
-  - [x] Complete Integrations list (with links)
-  - [x] Complete Custom Components section (with links)
-  - [x] Improve the content in the About The Project section
-  - [x] Update the Roadmap section
-  - [x] Add a Devices section (with links)
-    - [x] IoT devices
-    - [x] Other devices
-  - [x] Update Built-With section, describing the hardware and OS configuration
-- [x] Logo
-  - [x] Use a file stored in the project
-  - [x] Design a project specific image (Canva)
-- [x] Add Roadmap items as Feature Requests in the Issues list
-- [x] Add a Change Log
-- [x] Redo screenshots with preferred theme colour
-- [x] Write a Git Guide
-- [x] Adopt a git commit message convention
-- [x] Publish the lovelace-ui.yaml
-- [x] Publish fake secrets.yaml for completeness
+- [ ] Create local Git repository
+- [ ] Push local code to GitHub
+- [ ] Update the README
+  - [ ] Update the Roadmap section
+- [ ] Update the Change Log
 
-</details>
+<!--</details>-->
 
-See the [open issues](https://github.com/nzrunner/home-assistant/issues) for a full list of proposed features (and known issues).
--->
+See the [open issues](https://github.com/nzrunner/plex-meta-manager/issues) for a full list of proposed features (and known issues).
+
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
