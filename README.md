@@ -87,6 +87,7 @@ Hopefully, as I have learned from others and "borrowed" sectons of their code, o
   - [ ] Update code
 - [ ] Create .gitignore file
 - [ ] Update the README
+  - [ ] Document the making of square images
   - [ ] Update the Roadmap section
 - [ ] Update the Change Log
 
