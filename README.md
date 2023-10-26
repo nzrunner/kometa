@@ -47,11 +47,11 @@
 
 <!-- PROJECT SHORT DESCRIPTION AND MENU -->
 
-[🏡 Home](https://github.com/nzrunner/home-assistant)
+[🏡 Home](https://github.com/nzrunner/plex-meta-manager)
 |
-[🐛 Report Bug](https://github.com/nzrunner/home-assistant/issues/new?assignees=nzrunner&labels=%F0%9F%90%9B+Bug%2C%F0%9F%A9%B9+Triage&template=bug_report.yml&title=%5BBUG%5D%3A+)
+[🐛 Report Bug](https://github.com/nzrunner/plex-meta-manager/issues/new?assignees=nzrunner&labels=%F0%9F%90%9B+Bug%2C%F0%9F%A9%B9+Triage&template=bug_report.yml&title=%5BBUG%5D%3A+)
 |
-[👍 Request Feature](https://github.com/nzrunner/home-assistant/issues/new?assignees=nzrunner&labels=%F0%9F%91%8D+Enhancement%2C%F0%9F%A9%B9+Triage&template=feature_request.yml&title=%5BFEATURE+REQUEST%5D%3A+)
+[👍 Request Feature](https://github.com/nzrunner/plex-meta-manager/issues/new?assignees=nzrunner&labels=%F0%9F%91%8D+Enhancement%2C%F0%9F%A9%B9+Triage&template=feature_request.yml&title=%5BFEATURE+REQUEST%5D%3A+)
 |
 [🗒 ChangeLog](/CHANGELOG.md)
 
@@ -323,7 +323,7 @@ See the [open issues](https://github.com/nzrunner/home-assistant/issues) for a f
 
 ## Contributing
 
-Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [https://github.com/nzrunner/home-assistant](https://github.com/nzrunner/home-assistant) :sparkles:.
+Thank you for considering to invest your time in contributing to our project! Any contribution you make will be reflected on [https://github.com/nzrunner/plex-meta-manager](https://github.com/nzrunner/plex-meta-manager) :sparkles:.
 
 Read our [Code of Conduct](./.github/CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -407,22 +407,22 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- Shields -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/nzrunner/home-assistant.svg?style=flat-square
-[forks-shield]: https://img.shields.io/github/forks/nzrunner/home-assistant.svg?style=flat-square
-[stars-shield]: https://img.shields.io/github/stars/nzrunner/home-assistant.svg?style=flat-square
-[bugs-shield]: https://img.shields.io/github/issues-search/nzrunner/home-assistant?style=flat-square&label=Bugs&query=is%3Aopen%20is%3Aissue%20label%3Abug
-[features-shield]: https://img.shields.io/github/issues-search/nzrunner/home-assistant?style=flat-square&label=Feature%20Requests&query=is%3Aopen%20is%3Aissue%20label%3Aenhancement
-[license-shield]: https://img.shields.io/github/license/nzrunner/home-assistant.svg?style=flat-square
-[commits-shield]: https://img.shields.io/github/commit-activity/y/nzrunner/home-assistant.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/nzrunner/plex-meta-manager.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/nzrunner/plex-meta-manager.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/nzrunner/plex-meta-manager.svg?style=flat-square
+[bugs-shield]: https://img.shields.io/github/issues-search/nzrunner/plex-meta-manager?style=flat-square&label=Bugs&query=is%3Aopen%20is%3Aissue%20label%3Abug
+[features-shield]: https://img.shields.io/github/issues-search/nzrunner/plex-meta-manager?style=flat-square&label=Feature%20Requests&query=is%3Aopen%20is%3Aissue%20label%3Aenhancement
+[license-shield]: https://img.shields.io/github/license/nzrunner/plex-meta-manager.svg?style=flat-square
+[commits-shield]: https://img.shields.io/github/commit-activity/y/nzrunner/plex-meta-manager.svg?style=flat-square
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg?style=flat-square
-[last-commit-shield]: https://img.shields.io/github/last-commit/nzrunner/home-assistant.svg?style=flat-square
+[last-commit-shield]: https://img.shields.io/github/last-commit/nzrunner/plex-meta-manager.svg?style=flat-square
 [hass.io]: https://img.shields.io/badge/Home%20Assistant-blue?style=for-the-badge&logo=home-assistant&logoColor=#41BDF5
 [raspberry-pi]: https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=ffffff
 [homeassistantci-shield]: https://img.shields.io/github/actions/workflow/status/nzrunner/home-assistant/home_assistant.yml?label=Home%20Assistant%20CI&style=flat-square
 [ha-version-shield]: https://img.shields.io/badge/Home%20Assistant-2023.4-blue.svg?style=for-the-badge
 [github-sponsors-shield]: https://img.shields.io/github/sponsors/nzrunner?label=Sponsors&style=flat-square
 [github-sponsor-me-shield]: https://img.shields.io/badge/sponsor-lightgrey?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white
-[pull-request-shield]: https://img.shields.io/github/issues-pr-raw/nzrunner/home-assistant?label=Pull%20Requests&style=flat-square
+[pull-request-shield]: https://img.shields.io/github/issues-pr-raw/nzrunner/plex-meta-manager?label=Pull%20Requests&style=flat-square
 [ha-blog]: https://img.shields.io/badge/-Home%20Assistant%20Blog-blue?style=for-the-badge&logo=home-assistant
 
 <!-- URL's -->
