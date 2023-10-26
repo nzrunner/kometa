@@ -80,7 +80,11 @@ Hopefully, as I have learned from others and "borrowed" sectons of their code, o
 <summary>Roadmap completed</summary>-->
 
 - [ ] Create local Git repository
-- [ ] Push local code to GitHub
+- [ ] Sync local code with GitHub
+- [ ] Folder structure
+  - [ ] Establish a better folder struture
+  - [ ] Move files
+  - [ ] Update code
 - [ ] Create .gitignore file
 - [ ] Update the README
   - [ ] Update the Roadmap section
