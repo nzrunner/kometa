@@ -353,9 +353,9 @@ Don't forget to give the project a star! Thanks again!
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
-
+<!--
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- SPONSORSHIP -->
 
 ## Sponsorship
@@ -381,9 +381,9 @@ If you like what I've done, please consider sponsoring me. Like everyone, I have
 </table>
 
 <!-- readme: nzrunner,sponsors -end -->
-
+<!--
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 <!-- LICENSE -->
 
 ## License
