@@ -316,9 +316,9 @@ See the [open issues](https://github.com/nzrunner/home-assistant/issues) for a f
 | Well documented - @basnijholt's configuration  | <https://github.com/basnijholt/home-assistant-config> |
 | Also well documented - @pqpxo configuration    | <https://github.com/pqpxo/SWAKES_hassio>              |
 | Amazing documentation - @CCOSTAN configuration | <https://github.com/CCOSTAN/Home-AssistantConfig>     |
--->
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 <!-- CONTRIBUTING -->
 
 ## Contributing
