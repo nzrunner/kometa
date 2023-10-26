@@ -13,7 +13,6 @@
 ---
 
 <!-- PROJECT LOGO -->
-## *** Needs major updates **
 [![Logo](/images/mark-matheson-digital-business-consultant.png)](../../)
 
 # Matho's Plex Meta Manager Configuration
@@ -27,7 +26,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-<!-- [![HA Version][ha-version-shield]][home-assistant] -->
+[![PMM Version][pmm-version-shield]][pmm]
 [![GitHub Sponsor Me][github-sponsor-me-shield]][github-sponsors-url]
 <a href="https://www.buymeacoffee.com/nzrunner" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="174"></a><br />
 [![Contributors][contributors-shield]][contributors-url]
@@ -41,7 +40,6 @@
 [![Project Maintenance][maintenance-shield]](https://github.com/nzrunner/plex-meta-manager/pulse)
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
-<!--[![Home Assistant CI][homeassistantci-shield]][homeassistantci]-->
 
 ---
 
@@ -61,205 +59,18 @@
 
 ## Overview
 
-[Home Assistant](https://home-assistant.io) is an awesome open-source home automation product that I have deployed to run my house.
+[Plex Meta Manager](https://metamanager.wiki/) is an open source Python 3 project that has been designed to ease the creation and maintenance of metadata, collections, and playlists within a Plex Media Server.
 
 I created this project to: -
 
 - Document my configuration (always a good thing)
 - Have a backup of my configuration (another good thing)
 - Contribute to the open-source community
-- Learn GitHub
 
-As I continue to make improvements to my smart home, I will be updating my configuration. Be sure to ⭐ my page and stay tuned for the latest updates.
+As I continue to make improvements to my configuration, I will be updating my configuration. Be sure to ⭐ my page and stay tuned for the latest updates.
 
 Hopefully, as I have learned from others and "borrowed" sectons of their code, others can benefit from my configuration.
 
-Sadly, I didn't keep a good record of the initial Home Assistant configurations that inspired me. If I stumble over them again, I will add them to the [Acknowledgements](#acknowledgments) section.
-<!--
-## Blog 🆕
-
-I am now blogging about my GitHub and Home Assistant experiences. Why not check out my blog created using GitHub Pages and Jekyll: -
-
-[![Home Assistant Blog][ha-blog]](https://nzrunner.github.io/home-assistant)
-
-## Built With
-
-[![Home Assistant][hass.io]][home-assistant] [![Raspberry Pi][raspberry-pi]](https://www.raspberrypi.com) [![Debian](https://img.shields.io/badge/Debian-AB1D33?style=for-the-badge&logo=debian&logoColor=ffffff)](https://www.debian.org)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Dashboards
-
-### Screenshots
-
-|                             **Preferred Theme**                              |                             **Alternate Theme**                              |
-| :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
-|       ![Home Assistant](images/home-assistant-preferred.png?raw=true)        |       ![Home Assistant](images/home-assistant-alternate.png?raw=true)        |
-|        ![Alerts](images/home-assistant-alerts-preferred.png?raw=true)        |        ![Alerts](images/home-assistant-alerts-alternate.png?raw=true)        |
-|        ![System](images/home-assistant-system-preferred.png?raw=true)        |        ![System](images/home-assistant-system-alternate.png?raw=true)        |
-|       ![Network](images/home-assistant-network-preferred.png?raw=true)       |       ![Network](images/home-assistant-network-alternate.png?raw=true)       |
-|      ![Security](images/home-assistant-security-preferred.png?raw=true)      |      ![Security](images/home-assistant-security-alternate.png?raw=true)      |
-| ![Entertainment](images/home-assistant-entertainment-preferred.png?raw=true) | ![Entertainment](images/home-assistant-entertainment-alternate.png?raw=true) |
-|     ![Debugging](images/home-assistant-debugging-preferred.png?raw=true)     |     ![Debugging](images/home-assistant-debugging-alternate.png?raw=true)     |
-|   ![Docker Server](images/home-assistant-docker-1-preferred.png?raw=true)    |   ![Docker Server](images/home-assistant-docker-1-alternate.png?raw=true)    |
-| ![Docker Containers](images/home-assistant-docker-2-preferred.png?raw=true)  | ![Docker Containers](images/home-assistant-docker-2-alternate.png?raw=true)  |
-
-### Lovelace UI
-
-I have opted to maintain my Dashboards using the Home Assistant UI (.storage mode). As such, I don't have a ui-lovalace.yml file accessible in my config folder.
-
-In the interests of completeness, I have copied the YAML code from the Raw Dashboard editor into a YAML file. It can be found [here](/.stubs/lovelace-ui.yaml). _Last update: 2023/03/24_.
-
-I will endeavour to update this occassionally.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Integrations
-
-| **Integration**                    | **Repository**                                               |
-| :--------------------------------- | :----------------------------------------------------------- |
-| Apple iCloud                       | <https://www.home-assistant.io/integrations/icloud>          |
-| Apple TV                           | <https://www.home-assistant.io/integrations/apple_tv>        |
-| Brother Printer                    | <https://www.home-assistant.io/integrations/brother>         |
-| Sony Bravia TV                     | <https://www.home-assistant.io/integrations/dlna_dmr>        |
-| HD HomeRun DMS                     | <https://www.home-assistant.io/integrations/dlna_dms>        |
-| My IP                              | <https://www.home-assistant.io/integrations/dnsip>           |
-| Google Cast                        | <https://www.home-assistant.io/integrations/cast>            |
-| Home Assistant Supervisor          | <https://www.home-assistant.io/integrations/hassio>          |
-| HomeKit                            | <https://www.home-assistant.io/integrations/homekit>         |
-| Local IP                           | <https://www.home-assistant.io/integrations/local_ip>        |
-| Mobile App                         | <https://www.home-assistant.io/integrations/mobile_app>      |
-| NextCloud                          | <https://www.home-assistant.io/integrations/nextcloud/>      |
-| Philips Hue                        | <https://www.home-assistant.io/integrations/hue>             |
-| Pi-Hole                            | <https://www.home-assistant.io/integrations/pi_hole>         |
-| Plex Media Server                  | <https://www.home-assistant.io/integrations/pi_hole>         |
-| Radarr                             | <https://www.home-assistant.io/integrations/radarr>          |
-| SABnzbd                            | <https://www.home-assistant.io/integrations/sabnzbd>         |
-| Season                             | <https://www.home-assistant.io/integrations/season>          |
-| Sonarr                             | <https://www.home-assistant.io/integrations/sonarr>          |
-| Sonos                              | <https://www.home-assistant.io/integrations/sonos>           |
-| SpeedTest                          | <https://www.home-assistant.io/integrations/speedtestdotnet> |
-| Sun                                | <https://www.home-assistant.io/integrations/sun>             |
-| Synology DSM                       | <https://www.home-assistant.io/integrations/synology_dsm>    |
-| Tautulli                           | <https://www.home-assistant.io/integrations/tautulli>        |
-| TP-Link Kasa Smart                 | <https://www.home-assistant.io/integrations/tplink>          |
-| Unifi Network                      | <https://www.home-assistant.io/integrations/unifi>           |
-| Uptime                             | <https://www.home-assistant.io/integrations/uptime>          |
-| CONBEE II (Zigbee Home Automation) | <https://www.home-assistant.io/integrations/zha>             |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Custom Components
-
-### Integrations
-
-| **Custom Component**     | **Repository**                                                      |
-| :----------------------- | :------------------------------------------------------------------ |
-| HACS                     | <https://github.com/hacs/integration>                               |
-| Unifi Gateway            | <https://github.com/custom-components/sensor.unifigateway>          |
-| Auto Backup              | <https://github.com/jcwillox/hass-auto-backup>                      |
-| Local Tuya               | <https://github.com/rospogrigio/localtuya>                          |
-| Font Awesome             | <https://github.com/thomasloven/hass-fontawesome>                   |
-| Browser Mod              | <https://github.com/thomasloven/hass-browser_mod>                   |
-| Monitor Docker           | <https://github.com/ualex73/monitor_docker>                         |
-| Simple Icons             | <https://github.com/vigonotion/hass-simpleicons>                    |
-| Garbage Collection       | <https://github.com/bruxy70/Garbage-Collection>                     |
-| Radarr Upcoming Media    | <https://github.com/custom-components/sensor.radarr_upcoming_media> |
-| Sonarr Upcoming Media    | <https://github.com/custom-components/sensor.sonarr_upcoming_media> |
-| Lidarr Upcoming Media    | <https://github.com/JackJPowell/sensor.lidarr_upcoming_media>       |
-| Bereau of Meteorology    | <https://github.com/bremor/bureau_of_meteorology>                   |
-| Plex Recently Added      | <https://github.com/custom-components/sensor.plex_recently_added>   |
-| Average Sensor           | <https://github.com/Limych/ha-average>                              |
-| Garmin Conenct           | <https://github.com/cyberjunky/home-assistant-garmin_connect>       |
-| ICS Calendar (iCalendar) | <https://github.com/franc6/ics_calendar>                            |
-| Uptime Kuma              | <https://github.com/meichthys/uptime_kuma>                          |
-| Medisafe                 | <https://github.com/c99koder/ha-medisafe>                           |
-
-### Frontend
-
-| **Custom Component**                  | **Repository**                                              | **Notes**                        |
-| :------------------------------------ | :---------------------------------------------------------- | :------------------------------- |
-| Multiple Entity Row                   | <https://github.com/benct/lovelace-multiple-entity-row>     |
-| Bar Card                              | <https://github.com/custom-cards/bar-card>                  |
-| Button Card                           | <https://github.com/custom-cards/button-card>               | Major Use                        |
-| Decluttering Card                     | <https://github.com/custom-cards/decluttering-card>         | Not currently used               |
-| ZHA Network Card                      | <https://github.com/dmulcahey/zha-network-card>             |
-| Mini Media Player                     | <https://github.com/kalkih/mini-media-player>               |
-| Auto Entities                         | <https://github.com/thomasloven/lovelace-auto-entities>     |
-| Card Mod                              | <https://github.com/thomasloven/lovelace-card-mod>          |
-| Fold Entity Row                       | <https://github.com/thomasloven/lovelace-fold-entity-row>   |
-| Slider Entity Row                     | <https://github.com/thomasloven/lovelace-slider-entity-row> |
-| IOS Themes - Dark Mode and Light Mode | <https://github.com/basnijholt/lovelace-ios-themes>         | My primary theme                 |
-| Custom Brand Icons                    | <https://github.com/elax46/custom-brand-icons>              |
-| Digital Clock                         | <https://github.com/wassy92x/lovelace-digital-clock>        |
-| Custom Animated Weather Card          | <https://github.com/DavidFW1960/bom-weather-card>           | Swapped to Platinum Weather Card |
-| Battery State Card                    | <https://github.com/maxwroc/battery-state-card>             |
-| Mini Graph Card                       | <https://github.com/kalkih/mini-graph-card>                 |
-| Upcoming Media Card                   | <https://github.com/custom-cards/upcoming-media-card>       |
-| Layout Card                           | <https://github.com/thomasloven/lovelace-layout-card>       |
-| Hass Hue Icons                        | <https://github.com/arallsopp/hass-hue-icons>               |
-| Metrology - Metro and Fluent Themese  | <https://github.com/Madelena/Metrology-for-Hass>            | My alternate theme               |
-| Platinum Weather Card                 | <https://github.com/Makin-Things/platinum-weather-card>     |
-
-### Automation
-
-| **Automation** | **Repository**                            |
-| :------------- | :---------------------------------------- |
-| Config Check   | <https://github.com/apop880/config-check> |
-
-### Addons
-
-| **Addon**        | **Repository**                                                    |
-| :--------------- | :---------------------------------------------------------------- |
-| AppDaemon        | <https://github.com/hassio-addons/addon-appdaemon>                |
-| VS Code          | <https://github.com/hassio-addons/addon-vscode>                   |
-| Terminal and SSH | <https://github.com/home-assistant/hassio-addons/tree/master/ssh> |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Devices
-
-### Network
-
-| **Equipment**                  | **Website**                                                  |
-| :----------------------------- | :----------------------------------------------------------- |
-| Ubiquiti Unifi USG 3 Router    | <https://ui.com/consoles>                                    |
-| Ubiquiti Unifi AP Lite         | <https://ui.com/wi-fi>                                       |
-| Ubiquiti Unifi Switches        | <https://ui.com/switching>                                   |
-| Ubiquiti Unifi Cloud Key GEN 1 | <https://ui.com/consoles>                                    |
-| Brother L8250CDN Printer       | No longer available                                          |
-| Synology DS1812+ NAS           | No longer available                                          |
-| Synology DS1618+ NAS           | No longer available                                          |
-| Sonos One Speakers             | <https://www.sonos.com/en-au/shop/one-sl>                    |
-| Google Home Mini Speakers      | <https://store.google.com/product/google_nest_mini?hl=en-AU> |
-| Apple iPhone                   | <https://www.apple.com/au/iphone/>                           |
-| Apple iPad                     | <https://www.apple.com/au/ipad/>                             |
-
-### IOT
-
-| **Equipment**                  | **Number** | **Website**                                                                                                          | **Notes** |
-| :----------------------------- | :--------: | :------------------------------------------------------------------------------------------------------------------- | :-------- |
-| Aqara Motion Sensors           |     8      | <https://www.aqara.com/en/human_motion_sensor.html>                                                                  |
-| Aqara Door Sensors             |     8      | <https://www.aqara.com/en/door_and_window_sensor.html>                                                               |
-| Aqara Temperature Sensors      |     4      | <https://www.aqara.com/en/temperature_humidity_sensor.html>                                                          |
-| Aqara Mini Switch              |     1      | <https://www.aqara.com/en/smart_wireless_mini_switch.html>                                                           |
-| Aqara Blind Controller         |     1      | <https://www.aqara.com/en/product/roller-shade-driver-e1>                                                            |
-| Philips Hue Bridge             |     1      | <https://www.philips-hue.com/en-au/p/hue-bridge/8719514342569>                                                       |
-| Philips Hue Smart Bulbs        |     13     | <https://www.philips-hue.com/en-au/products/smart-light-bulbs>                                                       |
-| Philips Hue Light Strips       |     1      | <https://www.philips-hue.com/en-au/products/smart-light-strips>                                                      |
-| Philips Hue Motion Sensors     |     2      | <https://www.philips-hue.com/en-au/p/hue-motion-sensor/8719514342149>                                                |
-| Philips Hue Dimmer Switch      |     1      | <https://www.philips-hue.com/en-au/p/hue-dimmer-switch--latest-model-/8719514274631>                                 |
-| IKEA Tradfri Motion Sensors    |     2      | <https://www.ikea.com/au/en/p/tradfri-wireless-motion-sensor-smart-white-90370469/>                                  |
-| IKEA Tradfri Buttons           |     2      | <https://www.ikea.com/au/en/p/tradfri-shortcut-button-white-smart-80356384/>                                         |
-| IKEA Tradfri Smart Bulbs       |     2      | <https://www.ikea.com/au/en/p/tradfri-led-bulb-e14-470-lumen-smart-wireless-dimmable-white-spectrum-globe-20489730/> |
-| IKIEA Tradfri Signal repeater  |     1      | <https://www.ikea.com/au/en/p/tradfri-signal-repeater-30400412/>                                                     |
-| Arlec Smart Plugs              |     8      | <https://www.bunnings.com.au/arlec-grid-connect-smart-plug-in-socket-with-energy-meter-4-pack_p0273368>              |
-| TP-Link HS110 Smart Plug       |     1      | <https://www.tp-link.com/au/home-networking/smart-plug/hs110/>                                                       |
-| TP-Link KP303 Smart Powerboard |     1      | <https://www.tp-link.com/au/home-networking/smart-plug/kp303/>                                                       | Garbage   |
-| Security Cameras               |     2      | N/A                                                                                                                  |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
 <!-- ROADMAP -->
 <!--
 ## Roadmap
@@ -293,32 +104,17 @@ I will endeavour to update this occassionally.
 </details>
 
 See the [open issues](https://github.com/nzrunner/home-assistant/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
-<!--
-### Themes
-
-| **Description**                         | **Link**                                             |
-| :-------------------------------------- | :--------------------------------------------------- |
-| My primary theme - iOS Themes           | <https://github.com/basnijholt/lovelace-ios-themes/> |
-| My alternate theme - Metrology (Fluent) | <https://github.com/Madelena/Metrology-for-Hass>     |
-
 ### Inspiration
 
-| **Description**                                | **Link**                                              |
-| :--------------------------------------------- | :---------------------------------------------------- |
-| My inspiration - @frenck's configuration       | <https://github.com/frenck/home-assistant-config>     |
-| More inspiration - @Metbril's configuration    | <https://github.com/metbril/home-assistant-config>    |
-| Well documented - @basnijholt's configuration  | <https://github.com/basnijholt/home-assistant-config> |
-| Also well documented - @pqpxo configuration    | <https://github.com/pqpxo/SWAKES_hassio>              |
-| Amazing documentation - @CCOSTAN configuration | <https://github.com/CCOSTAN/Home-AssistantConfig>     |
+| **Description**                                | **Link**                                                      |
+| :--------------------------------------------- | :------------------------------------------------------------ |
+| My inspiration                                 | <https://github.com/meisnate12/Plex-Meta-Manager>             |
+| More inspiration                               | <https://github.com/meisnate12/Plex-Meta-Manager-Configs>     |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
 <!-- CONTRIBUTING -->
 
 ## Contributing
@@ -353,9 +149,7 @@ Don't forget to give the project a star! Thanks again!
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
-<!--
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 <!-- SPONSORSHIP -->
 
 ## Sponsorship
@@ -381,28 +175,23 @@ If you like what I've done, please consider sponsoring me. Like everyone, I have
 </table>
 
 <!-- readme: nzrunner,sponsors -end -->
-<!--
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
-<!--
+
 ## Contact
 
 | **Name**      | **Handle** | **Link**                                     |
 | :------------ | :--------- | :------------------------------------------- |
 | Mark Matheson | @nzrunner  | <https://twitter.com/nzrunner>               |
-| Project Link  |            | <https://github.com/nzrunner/home-assistant> |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- Shields -->
@@ -416,14 +205,10 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 [commits-shield]: https://img.shields.io/github/commit-activity/y/nzrunner/plex-meta-manager.svg?style=flat-square
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg?style=flat-square
 [last-commit-shield]: https://img.shields.io/github/last-commit/nzrunner/plex-meta-manager.svg?style=flat-square
-[hass.io]: https://img.shields.io/badge/Home%20Assistant-blue?style=for-the-badge&logo=home-assistant&logoColor=#41BDF5
-[raspberry-pi]: https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=ffffff
-[homeassistantci-shield]: https://img.shields.io/github/actions/workflow/status/nzrunner/home-assistant/home_assistant.yml?label=Home%20Assistant%20CI&style=flat-square
-[ha-version-shield]: https://img.shields.io/badge/Home%20Assistant-2023.4-blue.svg?style=for-the-badge
+[pmm-version-shield]: https://img.shields.io/badge/Plex%20Meta%20Manager-1.19.1-greensvg?style=for-the-badge
 [github-sponsors-shield]: https://img.shields.io/github/sponsors/nzrunner?label=Sponsors&style=flat-square
 [github-sponsor-me-shield]: https://img.shields.io/badge/sponsor-lightgrey?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white
 [pull-request-shield]: https://img.shields.io/github/issues-pr-raw/nzrunner/plex-meta-manager?label=Pull%20Requests&style=flat-square
-[ha-blog]: https://img.shields.io/badge/-Home%20Assistant%20Blog-blue?style=for-the-badge&logo=home-assistant
 
 <!-- URL's -->
 
@@ -434,7 +219,6 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 [features-url]: https://github.com/nzrunner/plex-meta-manager/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
 [license-url]: https://github.com/nzrunner/plex-meta-manager/blob/master/LICENSE.md
 [commits]: https://github.com/nzrunner/plex-meta-manager/commits/master
-[homeassistantci]: https://github.com/nzrunner/plex-meta-manager/actions/workflows/home_assistant.yml
-[home-assistant]: https://home-assistant.io
+[pmm]: https://metamanager.wiki/
 [github-sponsors-url]: https://github.com/sponsors/nzrunner
 [pull-request-url]: https://github.com/nzrunner/plex-meta-manager/pulls
