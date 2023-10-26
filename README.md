@@ -81,6 +81,7 @@ Hopefully, as I have learned from others and "borrowed" sectons of their code, o
 
 - [ ] Create local Git repository
 - [ ] Push local code to GitHub
+- [ ] Create .gitignore file
 - [ ] Update the README
   - [ ] Update the Roadmap section
 - [ ] Update the Change Log
