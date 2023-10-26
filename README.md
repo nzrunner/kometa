@@ -33,8 +33,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-<!--[![Bugs][bugs-shield]][bugs-url]
-[![Feature Requests][features-shield]][features-url]-->
+[![Bugs][bugs-shield]][bugs-url]
+[![Feature Requests][features-shield]][features-url]
 [![Pull Requests][pull-request-shield]][pull-request-url]
 [![MIT License][license-shield]][license-url]
 [![GitHub Sponsors][github-sponsors-shield]][github-sponsors-url]<br />
@@ -427,14 +427,14 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 <!-- URL's -->
 
-[contributors-url]: https://github.com/nzrunner/home-assistant/graphs/contributors
-[forks-url]: https://github.com/nzrunner/home-assistant/network/members
-[stars-url]: https://github.com/nzrunner/home-assistant/stargazers
-[bugs-url]: https://github.com/nzrunner/home-assistant/issues?q=is%3Aopen+is%3Aissue+label%3Abug
-[features-url]: https://github.com/nzrunner/home-assistant/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
-[license-url]: https://github.com/nzrunner/home-assistant/blob/master/LICENSE.md
-[commits]: https://github.com/nzrunner/home-assistant/commits/master
-[homeassistantci]: https://github.com/nzrunner/home-assistant/actions/workflows/home_assistant.yml
+[contributors-url]: https://github.com/nzrunner/plex-meta-manager/graphs/contributors
+[forks-url]: https://github.com/nzrunner/plex-meta-manager/network/members
+[stars-url]: https://github.com/nzrunner/plex-meta-manager/stargazers
+[bugs-url]: https://github.com/nzrunner/plex-meta-manager/issues?q=is%3Aopen+is%3Aissue+label%3Abug
+[features-url]: https://github.com/nzrunner/plex-meta-manager/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
+[license-url]: https://github.com/nzrunner/plex-meta-manager/blob/master/LICENSE.md
+[commits]: https://github.com/nzrunner/plex-meta-manager/commits/master
+[homeassistantci]: https://github.com/nzrunner/plex-meta-manager/actions/workflows/home_assistant.yml
 [home-assistant]: https://home-assistant.io
 [github-sponsors-url]: https://github.com/sponsors/nzrunner
-[pull-request-url]: https://github.com/nzrunner/home-assistant/pulls
+[pull-request-url]: https://github.com/nzrunner/plex-meta-manager/pulls
