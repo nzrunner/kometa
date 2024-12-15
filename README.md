@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 [![Logo](/images/mark-matheson-digital-business-consultant.png)](../../)
 
-# Matho's Plex Meta Manager Configuration
+# Matho's Kometa Configuration
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -37,7 +37,7 @@
 [![Pull Requests][pull-request-shield]][pull-request-url]
 [![MIT License][license-shield]][license-url]
 [![GitHub Sponsors][github-sponsors-shield]][github-sponsors-url]<br />
-[![Project Maintenance][maintenance-shield]](https://github.com/nzrunner/plex-meta-manager/pulse)
+[![Project Maintenance][maintenance-shield]](https://github.com/nzrunner/kometa/pulse)
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
@@ -45,11 +45,11 @@
 
 <!-- PROJECT SHORT DESCRIPTION AND MENU -->
 
-[🏡 Home](https://github.com/nzrunner/plex-meta-manager)
+[🏡 Home](https://github.com/nzrunner/kometa)
 |
-[🐛 Report Bug](https://github.com/nzrunner/plex-meta-manager/issues/new?assignees=nzrunner&labels=%F0%9F%90%9B+Bug%2C%F0%9F%A9%B9+Triage&template=bug_report.yml&title=%5BBUG%5D%3A+)
+[🐛 Report Bug](https://github.com/nzrunner/kometa/issues/new?assignees=nzrunner&labels=%F0%9F%90%9B+Bug%2C%F0%9F%A9%B9+Triage&template=bug_report.yml&title=%5BBUG%5D%3A+)
 |
-[👍 Request Feature](https://github.com/nzrunner/plex-meta-manager/issues/new?assignees=nzrunner&labels=%F0%9F%91%8D+Enhancement%2C%F0%9F%A9%B9+Triage&template=feature_request.yml&title=%5BFEATURE+REQUEST%5D%3A+)
+[👍 Request Feature](https://github.com/nzrunner/kometa/issues/new?assignees=nzrunner&labels=%F0%9F%91%8D+Enhancement%2C%F0%9F%A9%B9+Triage&template=feature_request.yml&title=%5BFEATURE+REQUEST%5D%3A+)
 |
 [🗒 ChangeLog](/CHANGELOG.md)
 
@@ -93,7 +93,7 @@ Hopefully, as I have learned from others and "borrowed" sectons of their code, o
 
 <!--</details>-->
 
-See the [open issues](https://github.com/nzrunner/plex-meta-manager/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/nzrunner/kometa/issues) for a full list of proposed features (and known issues).
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -109,7 +109,7 @@ See the [open issues](https://github.com/nzrunner/plex-meta-manager/issues) for 
 
 ## Contributing
 
-Thank you for considering to invest your time in contributing to our project! Any contribution you make will be reflected on [https://github.com/nzrunner/plex-meta-manager](https://github.com/nzrunner/plex-meta-manager) :sparkles:.
+Thank you for considering to invest your time in contributing to our project! Any contribution you make will be reflected on [https://github.com/nzrunner/kometa](https://github.com/nzrunner/kometa) :sparkles:.
 
 Read our [Code of Conduct](./.github/CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -186,29 +186,29 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- Shields -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/nzrunner/plex-meta-manager.svg?style=flat-square
-[forks-shield]: https://img.shields.io/github/forks/nzrunner/plex-meta-manager.svg?style=flat-square
-[stars-shield]: https://img.shields.io/github/stars/nzrunner/plex-meta-manager.svg?style=flat-square
-[bugs-shield]: https://img.shields.io/github/issues-search/nzrunner/plex-meta-manager?style=flat-square&label=Bugs&query=is%3Aopen%20is%3Aissue%20label%3Abug
-[features-shield]: https://img.shields.io/github/issues-search/nzrunner/plex-meta-manager?style=flat-square&label=Feature%20Requests&query=is%3Aopen%20is%3Aissue%20label%3Aenhancement
-[license-shield]: https://img.shields.io/github/license/nzrunner/plex-meta-manager.svg?style=flat-square
-[commits-shield]: https://img.shields.io/github/commit-activity/y/nzrunner/plex-meta-manager.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/nzrunner/kometa.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/nzrunner/kometa.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/nzrunner/kometa.svg?style=flat-square
+[bugs-shield]: https://img.shields.io/github/issues-search/nzrunner/kometa?style=flat-square&label=Bugs&query=is%3Aopen%20is%3Aissue%20label%3Abug
+[features-shield]: https://img.shields.io/github/issues-search/nzrunner/kometa?style=flat-square&label=Feature%20Requests&query=is%3Aopen%20is%3Aissue%20label%3Aenhancement
+[license-shield]: https://img.shields.io/github/license/nzrunner/kometa.svg?style=flat-square
+[commits-shield]: https://img.shields.io/github/commit-activity/y/nzrunner/kometa.svg?style=flat-square
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg?style=flat-square
-[last-commit-shield]: https://img.shields.io/github/last-commit/nzrunner/plex-meta-manager.svg?style=flat-square
+[last-commit-shield]: https://img.shields.io/github/last-commit/nzrunner/kometa.svg?style=flat-square
 [pmm-version-shield]: https://img.shields.io/badge/Plex%20Meta%20Manager-1.19.1-greensvg?style=for-the-badge
 [github-sponsors-shield]: https://img.shields.io/github/sponsors/nzrunner?label=Sponsors&style=flat-square
 [github-sponsor-me-shield]: https://img.shields.io/badge/sponsor-lightgrey?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white
-[pull-request-shield]: https://img.shields.io/github/issues-pr-raw/nzrunner/plex-meta-manager?label=Pull%20Requests&style=flat-square
+[pull-request-shield]: https://img.shields.io/github/issues-pr-raw/nzrunner/kometa?label=Pull%20Requests&style=flat-square
 
 <!-- URL's -->
 
-[contributors-url]: https://github.com/nzrunner/plex-meta-manager/graphs/contributors
-[forks-url]: https://github.com/nzrunner/plex-meta-manager/network/members
-[stars-url]: https://github.com/nzrunner/plex-meta-manager/stargazers
-[bugs-url]: https://github.com/nzrunner/plex-meta-manager/issues?q=is%3Aopen+is%3Aissue+label%3Abug
-[features-url]: https://github.com/nzrunner/plex-meta-manager/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
-[license-url]: https://github.com/nzrunner/plex-meta-manager/blob/master/LICENSE.md
-[commits]: https://github.com/nzrunner/plex-meta-manager/commits/master
+[contributors-url]: https://github.com/nzrunner/kometa/graphs/contributors
+[forks-url]: https://github.com/nzrunner/kometa/network/members
+[stars-url]: https://github.com/nzrunner/kometa/stargazers
+[bugs-url]: https://github.com/nzrunner/kometa/issues?q=is%3Aopen+is%3Aissue+label%3Abug
+[features-url]: https://github.com/nzrunner/kometa/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
+[license-url]: https://github.com/nzrunner/kometa/blob/master/LICENSE.md
+[commits]: https://github.com/nzrunner/kometa/commits/master
 [pmm]: https://metamanager.wiki/
 [github-sponsors-url]: https://github.com/sponsors/nzrunner
-[pull-request-url]: https://github.com/nzrunner/plex-meta-manager/pulls
+[pull-request-url]: https://github.com/nzrunner/kometa/pulls
